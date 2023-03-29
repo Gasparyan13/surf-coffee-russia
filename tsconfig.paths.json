@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@src": ["./"],
+      "@src/*": ["./*"],
+      "@app": ["./app"],
+      "@app/*": ["./app/*"],
+      "@components": ["./common/components"],
+      "@components/*": ["./common/components/*"],
+      "@constants": ["./common/constants"],
+      "@constants/*": ["./common/constants/*"],
+      "@helpers": ["./common/helpers"],
+      "@helpers/*": ["./common/helpers/*"],
+      "@hooks": ["./common/hooks"],
+      "@hooks/*": ["./common/hooks/*"],
+      "@providers": ["./common/providers"],
+      "@providers/*": ["./common/providers/*"],
+      "@types": ["./common/types"],
+      "@types/*": ["./common/types/*"],
+      "@uiKit": ["./common/uiKit"],
+      "@uiKit/*": ["./common/uiKit/*"],
+      "@common": ["./common"],
+      "@common/*": ["./common/*"],
+      "@ui": ["./common/ui"],
+      "@ui/*": ["./common/ui/*"],
+      "@utils": ["./common/utils"],
+      "@utils/*": ["./common/utils/*"],
+      "@pages": ["./pages"],
+      "@pages/*": ["./pages/*"],
+      "@store": ["./store"],
+      "@store/*": ["./store/*"],
+      "@rtkApi": ["./services/rtkApi"],
+      "@rtkApi/*": ["./services/rtkApi/*"],
+      "@api": ["./services/api"],
+      "@api/*": ["./services/api/*"],
+      "@testEnv": ["./testEnv"],
+      "@testEnv/*": ["./testEnv/*"]
+    }
+  }
+}

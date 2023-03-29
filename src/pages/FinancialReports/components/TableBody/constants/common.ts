@@ -1,0 +1,1 @@
+export const DELAYED_RENDER_TIMEOUT = 400

@@ -1,0 +1,2 @@
+export const WIDGET_MARGIN = 24
+export const WIDGET_VERTICAL_MARGINS = WIDGET_MARGIN * 2

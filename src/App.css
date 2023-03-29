@@ -1,0 +1,76 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans Regular'), local('FiraSans-Regular'),
+    url('./common/providers/Mui/fonts/FiraSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans Medium'), local('FiraSans-Medium'),
+    url('./common/providers/Mui/fonts/FiraSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans Bold'), local('FiraSans-Bold'),
+    url('./common/providers/Mui/fonts/FiraSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+.form-wrap {
+  width: 320px;
+  min-height: 300px;
+  height: auto;
+  padding: 30px 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #000000;
+}
+
+.form-wrap label:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.form-wrap input {
+  margin-bottom: 10px;
+  outline: 0;
+}
+
+.form-wrap button {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.mid_name_exist {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.check {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.check_text {
+  margin-left: 5px;
+  font-size: 14px;
+}
